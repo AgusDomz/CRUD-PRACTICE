@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Coffe",
+      "price": "50",
+      "urlImg": "http://cualquiera.com",
+      "category": "bebida-caliente"
+    },
+    {
+      "id": 2,
+      "productName": "Smoddie",
+      "price": "30",
+      "urlImg": "http://cualquiera.com",
+      "category": "bebida-fria"
+    }
+  ]
+}

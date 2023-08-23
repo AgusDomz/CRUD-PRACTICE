@@ -1,13 +1,13 @@
 import { Carousel } from "react-bootstrap";
 
-const CarruselHome = () => {
+const CarouselHome = () => {
   return (
     <>
-          <Carousel>
+      <Carousel>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://www.jasonshonbennett.com/wp-content/uploads/2019/05/Untitled-design-2-4.jpg"
+            src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
             alt="cafe"
           />
           <Carousel.Caption>
@@ -18,7 +18,7 @@ const CarruselHome = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://lecaroz.com/wp-content/uploads/2021/06/croissant-choco-1920x800.jpg"
+            src="https://images.unsplash.com/photo-1501721358449-1505ca840822?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
             alt="croissant"
           />
           <Carousel.Caption>
@@ -29,7 +29,7 @@ const CarruselHome = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://www.vendingmadridvalyval.com/wp-content/uploads/2019/05/maquina-expendedora-bebidas-madrid-slndn1.jpg"
+            src="https://images.unsplash.com/reserve/jCCsCae7RwCDOKTCA2Ji_reggeli%20-%20sonk%C3%A1s%20szendvics.JPG?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1165&q=80"
             alt="mixed roasts"
           />
           <Carousel.Caption>
@@ -42,4 +42,4 @@ const CarruselHome = () => {
   )
 }
 
-export default CarruselHome
+export default CarouselHome
